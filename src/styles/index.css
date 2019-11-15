@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Mono", monospace;
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 6rem;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+}
