@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react_shop_sense/static/css/main.e746ac5a.chunk.css",
+    "main.js": "/react_shop_sense/static/js/main.7ad8a456.chunk.js",
+    "main.js.map": "/react_shop_sense/static/js/main.7ad8a456.chunk.js.map",
+    "runtime-main.js": "/react_shop_sense/static/js/runtime-main.a2dcd95a.js",
+    "runtime-main.js.map": "/react_shop_sense/static/js/runtime-main.a2dcd95a.js.map",
+    "static/js/2.199ffa62.chunk.js": "/react_shop_sense/static/js/2.199ffa62.chunk.js",
+    "static/js/2.199ffa62.chunk.js.map": "/react_shop_sense/static/js/2.199ffa62.chunk.js.map",
+    "index.html": "/react_shop_sense/index.html",
+    "precache-manifest.0ceab242fcb4784f49f99c51c54795d0.js": "/react_shop_sense/precache-manifest.0ceab242fcb4784f49f99c51c54795d0.js",
+    "service-worker.js": "/react_shop_sense/service-worker.js",
+    "static/css/main.e746ac5a.chunk.css.map": "/react_shop_sense/static/css/main.e746ac5a.chunk.css.map",
+    "static/media/accessories.jpg": "/react_shop_sense/static/media/accessories.368b391c.jpg",
+    "static/media/all.jpg": "/react_shop_sense/static/media/all.465c7139.jpg",
+    "static/media/beauty.jpg": "/react_shop_sense/static/media/beauty.40fa5b91.jpg",
+    "static/media/classic-eyeglasses.jpg": "/react_shop_sense/static/media/classic-eyeglasses.dea1fb00.jpg",
+    "static/media/coach-perfume.jpg": "/react_shop_sense/static/media/coach-perfume.c598136c.jpg",
+    "static/media/dualshock-controller.jpg": "/react_shop_sense/static/media/dualshock-controller.a131db26.jpg",
+    "static/media/gaming.jpg": "/react_shop_sense/static/media/gaming.6bda1452.jpg",
+    "static/media/gifts.jpg": "/react_shop_sense/static/media/gifts.63dabb55.jpg",
+    "static/media/glasses-home.jpg": "/react_shop_sense/static/media/glasses-home.785c7a0a.jpg",
+    "static/media/headset-home.jpg": "/react_shop_sense/static/media/headset-home.f10f7f58.jpg",
+    "static/media/map.jpg": "/react_shop_sense/static/media/map.f675e552.jpg",
+    "static/media/nintendo-ds.jpg": "/react_shop_sense/static/media/nintendo-ds.34028898.jpg",
+    "static/media/online-shopping.jpg": "/react_shop_sense/static/media/online-shopping.97e77228.jpg",
+    "static/media/pentax-bridge-camera.jpg": "/react_shop_sense/static/media/pentax-bridge-camera.7a6bce01.jpg",
+    "static/media/phone.jpg": "/react_shop_sense/static/media/phone.134f92e3.jpg",
+    "static/media/pink-lipstick.jpg": "/react_shop_sense/static/media/pink-lipstick.abd275fa.jpg",
+    "static/media/shopping.jpg": "/react_shop_sense/static/media/shopping.768c94ee.jpg",
+    "static/media/technology.jpg": "/react_shop_sense/static/media/technology.b285c4f8.jpg",
+    "static/media/watch-home.jpg": "/react_shop_sense/static/media/watch-home.d5a4d3eb.jpg",
+    "static/media/xbox360.jpg": "/react_shop_sense/static/media/xbox360.889cc36b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2dcd95a.js",
+    "static/js/2.199ffa62.chunk.js",
+    "static/css/main.e746ac5a.chunk.css",
+    "static/js/main.7ad8a456.chunk.js"
+  ]
+}
