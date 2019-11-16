@@ -58,7 +58,7 @@ const App = () => {
   };
 
   return (
-    <Router basename="/">
+    <Router basename="/react_shop_sense">
       <div className="app-main-container">
         <div className="header-navigation-container">
           <Header FontAwesome={FontAwesomeIcon} shoppingBag={faShoppingBag} />
