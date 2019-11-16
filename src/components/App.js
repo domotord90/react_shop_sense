@@ -58,7 +58,7 @@ const App = () => {
   };
 
   return (
-    <Router basename="/react_shop_sense">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app-main-container">
         <div className="header-navigation-container">
           <Header FontAwesome={FontAwesomeIcon} shoppingBag={faShoppingBag} />
