@@ -58,7 +58,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/">
       <div className="app-main-container">
         <div className="header-navigation-container">
           <Header FontAwesome={FontAwesomeIcon} shoppingBag={faShoppingBag} />
