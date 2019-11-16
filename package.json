@@ -2,7 +2,7 @@
   "name": "react-online-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://domotord90.github.io/react-memory-game",
+  "homepage": "https://domotord90.github.io/react_shop_sense",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
