@@ -30,6 +30,7 @@ const Categories = ({
     }
     setCategories(array);
     setPageStart(0);
+    // eslint-disable-next-line
   }, [setCategories]);
 
   return (

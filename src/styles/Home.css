@@ -11,7 +11,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -29,6 +28,7 @@
   width: 90%;
   position: absolute;
   top: 10%;
+  left: 5%;
   height: 150px;
 }
 
@@ -52,6 +52,10 @@
   color: white;
   cursor: pointer;
   z-index: 15;
+}
+
+.arrows:hover {
+  color: black;
 }
 
 .sales-container {
@@ -88,6 +92,15 @@
   background: hotpink;
 }
 
+.home-slider-buttons-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 18%;
+}
+
 .store-button {
   width: 250px;
   font-size: 30px;
@@ -101,8 +114,6 @@
   text-align: center;
   text-transform: uppercase;
   padding: 20px 0;
-  position: absolute;
-  top: 18%;
   z-index: 2;
 }
 
@@ -116,8 +127,6 @@
   margin-top: 50px;
   justify-content: space-around;
   width: 200px;
-  position: absolute;
-  top: 21%;
   z-index: 10;
 }
 
@@ -137,27 +146,20 @@
 .imageout-enter {
   position: absolute;
   opacity: 0.01;
-  /* transform: translateY(0%) scale(0.01); */
   z-index: 1;
 }
 
 .imageout-enter-active {
   opacity: 1;
-  /* position: absolute; */
-  /* transform: translateY(0%) scale(1); */
   transition: all 1000ms ease-in-out;
 }
 
 .imageout-exit {
   opacity: 1;
-  /* width: 100%; */
-  /* transform: scale(1); */
 }
 
 .image-exit-active {
   opacity: 0;
-  /* width: 100%; */
-  /* transform: scale(4); */
   transition: all 1000ms ease-in-out;
 }
 
@@ -258,15 +260,11 @@
   }
 
   .images-text-container {
-    top: 18%;
+    top: 20%;
   }
 
-  .store-button {
-    top: 28%;
-  }
-
-  .image-circles-container {
-    top: 32%;
+  .home-slider-buttons-wrapper {
+    top: 30%;
   }
 
   .home-images-container {
@@ -300,5 +298,15 @@
 
   .home-image-container:hover .home-image {
     transform: scale(1.2);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .images-text-container {
+    top: 15%;
+  }
+
+  .home-slider-buttons-wrapper {
+    top: 25%;
   }
 }

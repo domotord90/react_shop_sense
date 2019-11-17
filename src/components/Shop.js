@@ -80,6 +80,7 @@ const Shop = ({
 
   useEffect(() => {
     sortingFunction(sorting);
+    // eslint-disable-next-line
   }, [sorting]);
 
   const sortingOnChange = e => {

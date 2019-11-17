@@ -83,38 +83,40 @@ const Home = ({ Link, FontAwesome, arrowLeft, arrowRight }) => {
           />
         </div>
 
-        <Link to="categories" className="store-button">
-          Shop Now
-        </Link>
-        <div className="image-circles-container">
-          <div
-            onClick={circleImageContainerClick}
-            id="image-circles-1"
-            className={`image-circles ${
-              currentSlide === 1 ? "image-circles-current" : ""
-            }`}
-          ></div>
-          <div
-            onClick={circleImageContainerClick}
-            id="image-circles-2"
-            className={`image-circles ${
-              currentSlide === 2 ? "image-circles-current" : ""
-            }`}
-          ></div>
-          <div
-            onClick={circleImageContainerClick}
-            id="image-circles-3"
-            className={`image-circles ${
-              currentSlide === 3 ? "image-circles-current" : ""
-            }`}
-          ></div>
-          <div
-            onClick={circleImageContainerClick}
-            id="image-circles-4"
-            className={`image-circles ${
-              currentSlide === 4 ? "image-circles-current" : ""
-            }`}
-          ></div>
+        <div className="home-slider-buttons-wrapper">
+          <Link to="categories" className="store-button">
+            Shop Now
+          </Link>
+          <div className="image-circles-container">
+            <div
+              onClick={circleImageContainerClick}
+              id="image-circles-1"
+              className={`image-circles ${
+                currentSlide === 1 ? "image-circles-current" : ""
+              }`}
+            ></div>
+            <div
+              onClick={circleImageContainerClick}
+              id="image-circles-2"
+              className={`image-circles ${
+                currentSlide === 2 ? "image-circles-current" : ""
+              }`}
+            ></div>
+            <div
+              onClick={circleImageContainerClick}
+              id="image-circles-3"
+              className={`image-circles ${
+                currentSlide === 3 ? "image-circles-current" : ""
+              }`}
+            ></div>
+            <div
+              onClick={circleImageContainerClick}
+              id="image-circles-4"
+              className={`image-circles ${
+                currentSlide === 4 ? "image-circles-current" : ""
+              }`}
+            ></div>
+          </div>
         </div>
       </div>
 
