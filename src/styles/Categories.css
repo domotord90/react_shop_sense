@@ -36,17 +36,18 @@
 .category-button {
   font-size: 26px;
   margin-top: 10px;
-  text-decoration: none;
+  /* text-decoration: none; */
   background: hotpink;
   padding: 10px;
   border-radius: 5px;
   color: white;
   border: none;
+  /* cursor: pointer; */
 }
 
 .category-button:hover {
-  cursor: pointer;
-  background: black;
+  /* cursor: pointer;
+  background: black; */
   color: hotpink;
 }
 

@@ -7,7 +7,8 @@ const Categories = ({
   categories,
   setCategories,
   useHistory,
-  setCurrentProducts
+  setCurrentProducts,
+  setPageStart
 }) => {
   const history = useHistory();
 
@@ -28,6 +29,7 @@ const Categories = ({
       }
     }
     setCategories(array);
+    setPageStart(0);
   }, [setCategories]);
 
   return (

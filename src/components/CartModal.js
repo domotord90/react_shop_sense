@@ -33,6 +33,7 @@ const CartModal = ({
     ) {
       setLegal(false);
     }
+    // eslint-disable-next-line
   }, [isShowing, setCart, currentProduct]);
 
   const getCartQuantity = () => {

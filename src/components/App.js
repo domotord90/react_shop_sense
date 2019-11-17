@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
+  HashRouter as Router,
   Route,
   Link,
   useHistory
@@ -13,7 +12,6 @@ import Categories from "./Categories";
 import Shop from "./Shop";
 import Product from "./Product";
 import Cart from "./Cart";
-import Dashboard from "./Dashboard";
 import SideBar from "./SideBar";
 import CartSideBar from "./CartSideBar";
 import Footer from "./Footer";
@@ -58,7 +56,7 @@ const App = () => {
   };
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <div className="app-main-container">
         <div className="header-navigation-container">
           <Header FontAwesome={FontAwesomeIcon} shoppingBag={faShoppingBag} />
@@ -109,24 +107,35 @@ const App = () => {
             Link={Link}
           />
 
-          <Switch>
-            <Route exact path="/">
+          <Route
+            exact
+            path="/"
+            render={() => (
               <Home
                 Link={Link}
                 FontAwesome={FontAwesomeIcon}
                 arrowLeft={faArrowCircleLeft}
                 arrowRight={faArrowCircleRight}
               />
-            </Route>
-            <Route path="/categories">
+            )}
+          />
+
+          <Route
+            path="/categories"
+            render={() => (
               <Categories
                 categories={categories}
                 setCategories={setCategories}
                 useHistory={useHistory}
                 setCurrentProducts={setCurrentProducts}
+                setPageStart={setPageStart}
               />
-            </Route>
-            <Route path="/shop">
+            )}
+          />
+
+          <Route
+            path="/shop"
+            render={() => (
               <Shop
                 currentProducts={currentProducts}
                 setCurrentProducts={setCurrentProducts}
@@ -139,8 +148,12 @@ const App = () => {
                 sorting={sorting}
                 setSorting={setSorting}
               />
-            </Route>
-            <Route path="/product">
+            )}
+          />
+
+          <Route
+            path="/product"
+            render={() => (
               <Product
                 currentProduct={currentProduct}
                 setCurrentProduct={setCurrentProduct}
@@ -151,8 +164,11 @@ const App = () => {
                 checkMark={faCheckCircle}
                 failure={faTimesCircle}
               />
-            </Route>
-            <Route path="/cart">
+            )}
+          />
+          <Route
+            path="/cart"
+            render={() => (
               <Cart
                 cart={cart}
                 setCart={setCart}
@@ -161,8 +177,9 @@ const App = () => {
                 cartIcon={faShoppingCart}
                 circleXIcon={farTimesCircle}
               />
-            </Route>
-          </Switch>
+            )}
+          />
+
           <CartSideBar
             isMenuClicked={isCartMenuClicked}
             setIsMenuClicked={setIsCartMenuClicked}
