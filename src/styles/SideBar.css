@@ -1,5 +1,5 @@
 .menu-bar-container {
-  font-size: 50px;
+  font-size: 3.125rem;
   display: flex;
   flex-direction: column;
 }
@@ -7,7 +7,7 @@
 .menu-bar {
   background: rgb(255, 105, 180, 0.8);
   /* width: 400px; */
-  font-size: 50px;
+  font-size: 3.125rem;
   position: fixed;
   z-index: 2;
 }
@@ -22,7 +22,7 @@ nav ul {
   flex-direction: column;
   list-style: none;
   align-items: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 0;
 }
 

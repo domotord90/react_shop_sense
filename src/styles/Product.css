@@ -9,18 +9,18 @@
 }
 
 .product-id {
-  font-size: 23px;
+  font-size: 1.4375rem;
   width: 90%;
 }
 
 .product-long-desc {
-  font-size: 24px;
+  font-size: 1.5rem;
   width: 90%;
 }
 
 .product-quantity-container {
   display: flex;
-  font-size: 26px;
+  font-size: 1.625rem;
   align-items: center;
   margin-bottom: 20px;
   width: 90%;
@@ -36,7 +36,7 @@
 
 .product-cart-button {
   border: none;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: white;
   background: darkblue;
   border-radius: 5px;
@@ -52,7 +52,7 @@
 }
 
 .product-more {
-  font-size: 26px;
+  font-size: 1.625rem;
   text-decoration: none;
   border-radius: 5px;
   background: hotpink;
@@ -77,23 +77,23 @@
   }
 
   .product-id {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .product-name {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .product-price {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .product-long-desc {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 300;
   }
 
   .product-quantity-container {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }

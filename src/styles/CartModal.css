@@ -53,12 +53,12 @@
 
 .current-product-added {
   color: green;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .current-product-not-added {
   color: red;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .current-product-cart-img {
@@ -73,22 +73,22 @@
 }
 
 .current-product-cart-name {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0 0 15px 0;
 }
 
 .current-product-cart-quantity {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0 0 10px 0;
 }
 
 .current-product-cart-price {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0 0 10px 0;
 }
 
 .current-product-cart-total-price {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
 }
 
@@ -100,13 +100,13 @@
 }
 
 .current-product-cart-item-quantity {
-  font-size: 30px;
+  font-size: 1.875rem;
   margin: 20px 0 10px 0;
 }
 
 .current-product-cart-item-total-price {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 .current-product-cart-item-nav-container {
@@ -116,7 +116,7 @@
 
 .view-cart {
   border: none;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: white;
   background: darkblue;
   border-radius: 5px;
