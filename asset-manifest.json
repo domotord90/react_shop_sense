@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_shop_sense/static/css/main.226d6148.chunk.css",
+    "main.css": "/react_shop_sense/static/css/main.3e39ebb5.chunk.css",
     "main.js": "/react_shop_sense/static/js/main.0110e965.chunk.js",
     "main.js.map": "/react_shop_sense/static/js/main.0110e965.chunk.js.map",
     "runtime-main.js": "/react_shop_sense/static/js/runtime-main.a2dcd95a.js",
@@ -8,9 +8,9 @@
     "static/js/2.3731023d.chunk.js": "/react_shop_sense/static/js/2.3731023d.chunk.js",
     "static/js/2.3731023d.chunk.js.map": "/react_shop_sense/static/js/2.3731023d.chunk.js.map",
     "index.html": "/react_shop_sense/index.html",
-    "precache-manifest.8e24f48df45201146a898d594c84090e.js": "/react_shop_sense/precache-manifest.8e24f48df45201146a898d594c84090e.js",
+    "precache-manifest.52516598f8f1ddfe277f3a85385e9bd4.js": "/react_shop_sense/precache-manifest.52516598f8f1ddfe277f3a85385e9bd4.js",
     "service-worker.js": "/react_shop_sense/service-worker.js",
-    "static/css/main.226d6148.chunk.css.map": "/react_shop_sense/static/css/main.226d6148.chunk.css.map",
+    "static/css/main.3e39ebb5.chunk.css.map": "/react_shop_sense/static/css/main.3e39ebb5.chunk.css.map",
     "static/media/accessories.jpg": "/react_shop_sense/static/media/accessories.368b391c.jpg",
     "static/media/all.jpg": "/react_shop_sense/static/media/all.465c7139.jpg",
     "static/media/beauty.jpg": "/react_shop_sense/static/media/beauty.40fa5b91.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.a2dcd95a.js",
     "static/js/2.3731023d.chunk.js",
-    "static/css/main.226d6148.chunk.css",
+    "static/css/main.3e39ebb5.chunk.css",
     "static/js/main.0110e965.chunk.js"
   ]
 }
